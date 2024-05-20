@@ -1,0 +1,243 @@
+<!-- The Window element defines the main window of the application -->
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:DownloaderGUI.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:i="https://github.com/projektanker/icons.avalonia"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="using:DownloaderGUI.Converters"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="DownloaderGUI.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="DownloaderGUI"
+        TransparencyLevelHint="AcrylicBlur"
+        Background="Transparent"
+		CanResize="True"
+        ExtendClientAreaToDecorationsHint="True">
+
+	<Window.Styles>
+		<!--Edit all textboxes differently from the default style when they're focused and pointed over-->
+		<Style Selector="TextBox:focus /template/ Border#PART_BorderElement">
+			<Setter Property="Opacity" Value="0.5"/>
+			<Setter Property="BorderBrush" Value="White"/>
+		</Style>
+		<Style Selector="TextBox:pointerover /template/ Border#PART_BorderElement">
+			<Setter Property="Opacity" Value="0.75"/>
+		</Style>
+	</Window.Styles>
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<!--Set a panel that acts like a titlebar on the first row (the tabs were overlapping it)-->
+		<Panel Grid.Row="0" Height="31">
+			<!--Set the custom acrylic background because it's cool-->
+			<ExperimentalAcrylicBorder IsHitTestVisible="False" x:Name="AcrylicBorder">
+				<ExperimentalAcrylicBorder.Material>
+					<ExperimentalAcrylicMaterial
+						BackgroundSource="Digger"
+						TintColor="#FF0044FF"
+						TintOpacity="0.5"
+						MaterialOpacity="0.2"/>
+				</ExperimentalAcrylicBorder.Material>
+			</ExperimentalAcrylicBorder>
+			<StackPanel Orientation="Horizontal" Margin="10 0 0 0">
+				<Image Source="avares://DownloaderGUI/Assets/avalonia-logo.ico" Width="20"/>
+				<TextBlock HorizontalAlignment="Left" VerticalAlignment="Center" Text="Dynasty Scans Manga Downloader" FontSize="10" Margin="10 0 0 0" />
+			</StackPanel>
+			<Border BorderBrush="#33000000" BorderThickness="0 0 0 1" HorizontalAlignment="Stretch"/>
+		</Panel>
+		<ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" >
+			<!--Set a panel on the second row (it's the main window)-->
+			<Panel Grid.Row="1">
+				<ExperimentalAcrylicBorder IsHitTestVisible="False" x:Name="MainAcrylicBorder">
+					<ExperimentalAcrylicBorder.Material>
+						<ExperimentalAcrylicMaterial
+							BackgroundSource="Digger"
+							TintColor="#FF0044FF"
+							TintOpacity="0.5"
+							MaterialOpacity="0.2"/>
+					</ExperimentalAcrylicBorder.Material>
+				</ExperimentalAcrylicBorder>
+				<Grid>
+					<Grid.RowDefinitions>
+						<RowDefinition Height="Auto"/>
+						<RowDefinition Height="*"/>
+					</Grid.RowDefinitions>
+					<!--Declare some tabs (Library, Download and Settings)-->
+					<TabControl SelectedItem="{Binding SelectedTab}" Grid.Row="0">
+						<TabItem Header="Library" Margin="20 0 0 0">
+							<Panel>
+								<Grid>
+									<Grid.RowDefinitions>
+										<RowDefinition Height="Auto"/>
+										<RowDefinition Height="*"/>
+									</Grid.RowDefinitions>
+										<TextBox Grid.Row="0" Width="500" HorizontalAlignment="Center" Text="{Binding LibraryViewModel.SearchQuery}" Watermark="Search..."/>
+									<!--Create a TextBox linked to the search query. It's a searchbar.-->
+									<ItemsControl Grid.Row="1" Margin="40 40 40 0" ItemsSource="{Binding LibraryViewModel.FilteredMangaLibrary}">
+										<ItemsControl.ItemsPanel>
+											<ItemsPanelTemplate>
+												<StackPanel Orientation="Vertical"/>
+											</ItemsPanelTemplate>
+										</ItemsControl.ItemsPanel>
+										<ItemsControl.ItemTemplate>
+											<DataTemplate>
+												<!--Create button that actually is the whole manga-->
+												<StackPanel Orientation="Vertical" Margin="0 0 0 20">
+														<Button Background="Transparent" HorizontalAlignment="Stretch" x:Name="SillyButton" Click="SillyButton_Click" CommandParameter="{Binding}">
+															<!--Set up a StackPanel to order vertically the manga cover, title and author-->
+															<Grid>
+																<Grid.RowDefinitions>
+																	<RowDefinition Height="auto"/>
+																	<RowDefinition Height="*"/>
+																</Grid.RowDefinitions>
+																<!--Place the name of the manga taken from the .cs file-->
+																<TextBlock Grid.Row="0" Text="{Binding Name}" FontWeight="Bold" TextAlignment="Left" TextTrimming="CharacterEllipsis"/>
+																<!--Place the name of the author taken from the .cs file-->
+																<TextBlock Grid.Row="0" Text="{Binding Author}" TextAlignment="Right"/>
+																<Border Grid.Row="1" BorderBrush="#33000000" BorderThickness="0 2 0 0" Margin="0 15 0 0"/>
+															</Grid>
+														</Button>
+														<ItemsControl ItemsSource="{Binding PdfFiles}" x:Name="ChaptersItems">
+															<ItemsControl.ItemsPanel>
+																<ItemsPanelTemplate>
+																	<StackPanel Orientation="Vertical"/>
+																</ItemsPanelTemplate>
+															</ItemsControl.ItemsPanel>
+															<ItemsControl.ItemTemplate>
+																<DataTemplate>
+																	<StackPanel Orientation="Vertical">
+																		<Button Background="Transparent" HorizontalAlignment="Stretch" Margin="30 0 30 0" Click="PdfButton_Click" CommandParameter="{Binding}">
+																			<Grid>
+																				<Grid.RowDefinitions>
+																					<RowDefinition Height="auto"/>
+																					<RowDefinition Height="*"/>
+																				</Grid.RowDefinitions>
+																				<StackPanel Grid.Row="0" Orientation="Horizontal">
+																					<i:Icon Value="fa-solid fa-book" Grid.Row="0" FontSize="18"/>
+																					<TextBlock Text="{Binding FileName}" FontSize="14" Margin="10 0 0 0"/>
+																				</StackPanel>
+																				<Border Grid.Row="1" BorderBrush="#33000000" BorderThickness="0 1 0 0" Margin="0 15 0 0"/>
+																			</Grid>
+																		</Button>
+																	</StackPanel>
+																</DataTemplate>
+															</ItemsControl.ItemTemplate>
+														</ItemsControl>
+												</StackPanel>
+											</DataTemplate>
+										</ItemsControl.ItemTemplate>
+									</ItemsControl>
+								</Grid>
+							</Panel>
+						</TabItem>
+						<TabItem Header="Download">
+							<!--Download tab-->
+							<Grid>
+								<Grid.RowDefinitions>
+									<RowDefinition Height="Auto"/>
+									<RowDefinition Height="*"/>
+								</Grid.RowDefinitions>
+								<!--set a stackpanel with searchbar and search button-->
+								<StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+									<TextBox Name="megurineLuka" Width="500" Watermark="Search for mangas to download..." Text="{Binding SearchViewModel.SearchText}" KeyDown="TextBox_KeyDown"/>
+									<Button Background="Transparent" Name="kasaneTeto" Command="{Binding SearchViewModel.SearchCommand}">
+										<i:Icon Value="fa-solid fa-magnifying-glass" FontSize="18"/>
+									</Button>
+								</StackPanel>
+								<!--listbox to list search results-->
+								<ListBox Background="Transparent" Grid.Row="1" Name="hatsuneMiku" ItemsSource="{Binding SearchViewModel.SearchResults}" SelectedItem="{Binding SearchViewModel.SelectedItem, Mode=TwoWay}"/>
+								<Grid Grid.Row="1" Margin="25">
+									<Grid.RowDefinitions>
+										<RowDefinition Height="Auto"/>
+										<RowDefinition Height="Auto"/>
+										<RowDefinition Height="*"/>
+										<RowDefinition Height="*"/>
+										<RowDefinition Height="*"/>
+									</Grid.RowDefinitions>
+									<TextBlock Text="{Binding SearchViewModel.DisplayText}" HorizontalAlignment="Center" FontSize="18" Grid.Row="0"/>
+									<StackPanel Orientation="Vertical" Grid.Row="1" IsVisible="{Binding SearchViewModel.ShowOptions}" Margin="10">
+										<TextBlock Text="Select the chapters you want to download" HorizontalAlignment="Center" FontSize="16"/>
+										<Border BorderBrush="#33FFFFFF" BorderThickness="0 0 0 2" Margin="100 20 100 20"/>
+									</StackPanel>
+									<StackPanel Grid.Row="2" Orientation="Horizontal" IsVisible="{Binding SearchViewModel.ShowOptions}" HorizontalAlignment="Center" Margin="0 0 0 30">
+										<Button Content="Select all" HorizontalContentAlignment="Center" Margin="0 0 30 0" Width="100" Command="{Binding SearchViewModel.SelectAllCommand}"/>
+										<Button Content="Deselect all" HorizontalContentAlignment="Center" Margin="30 0 0 0" Width="100" Command="{Binding SearchViewModel.DeselectAllCommand}"/>
+									</StackPanel>
+									<ItemsControl ItemsSource="{Binding SearchViewModel.ChapterText}" IsVisible="{Binding SearchViewModel.ShowOptions}" Grid.Row="3">
+										<ItemsControl.ItemsPanel>
+											<ItemsPanelTemplate>
+												<WrapPanel/>
+											</ItemsPanelTemplate>
+										</ItemsControl.ItemsPanel>
+										<ItemsControl.ItemTemplate>
+											<DataTemplate>
+												<StackPanel Orientation="Horizontal" Width="150">
+													<TextBlock Text="{Binding ChapterNumber}" VerticalAlignment="Center"/>
+													<CheckBox Margin="5" IsChecked="{Binding IsChecked}"/>
+												</StackPanel>
+											</DataTemplate>
+										</ItemsControl.ItemTemplate>
+									</ItemsControl>
+									<Button Grid.Row="4" Content="Select and download" HorizontalAlignment="Center" IsVisible="{Binding SearchViewModel.ShowOptions}" Command="{Binding SearchViewModel.DownloadCommand}" FontSize="16" Margin="20"/>
+								</Grid>
+								<StackPanel Grid.Row="1" IsVisible="{Binding SearchViewModel.ShowStatus}" Orientation="Vertical" HorizontalAlignment="Center">
+									<TextBlock Text="{Binding SearchViewModel.DownloadText}" HorizontalAlignment="Center" Margin="0 100 0 20"/>
+									<ProgressBar IsIndeterminate="True" IsEnabled="True" Width="600" Height="10"/>
+								</StackPanel>
+							</Grid>
+						</TabItem>
+						<!--Settings tab-->
+						<TabItem Header="Settings">
+							<TabItem.Header>
+								<!--Settings icon-->
+								<i:Icon Value="fa-solid fa-gear" />
+							</TabItem.Header>
+							<Grid>
+								<Grid.RowDefinitions>
+									<RowDefinition Height="Auto"/>
+									<RowDefinition Height="*"/>
+									<RowDefinition Height="*"/>
+								</Grid.RowDefinitions>
+								<StackPanel Grid.Row="0" Orientation="Vertical" Margin="5">
+									<TextBlock Text="Download location:"/>
+									<!--StackPanel to store the TextBox and button for folder selection together-->
+									<StackPanel Orientation="Horizontal">
+										<TextBox x:Name="FolderPathTextBox" IsReadOnly="True" VerticalAlignment="Center" Height="30" Width="450"/>
+										<Button Content="..." Margin="5" VerticalAlignment="Center" Click="Button_Click"/>
+									</StackPanel>
+									<Border BorderBrush="#33000000" BorderThickness="0 2 0 0" Margin="100 30 100 0"/>
+								</StackPanel>
+								<StackPanel Grid.Row="1" Orientation="Vertical" Margin="0 20 0 0">
+									<TextBlock Text="Application theme:" Margin="5"/>
+									<ComboBox Name="comboBox" Width="150" Margin="5" HorizontalAlignment="Left" SelectionChanged="ComboBox_SelectionChanged">
+										<ComboBoxItem Tag="#FF0044FF">Default theme</ComboBoxItem>
+										<ComboBoxItem Tag="#FF851AD6">Purple</ComboBoxItem>
+										<ComboBoxItem Tag="#FFFF0000">Red</ComboBoxItem>
+										<ComboBoxItem Tag="#FF00FF00">Green</ComboBoxItem>
+										<ComboBoxItem Tag="#FFFF8000">Orange</ComboBoxItem>
+										<ComboBoxItem Tag="#FF000000">Grey</ComboBoxItem>
+									</ComboBox>
+									<ColorPicker x:Name="ColorPicker" Width="100" Margin="10" HorizontalAlignment="Left" />
+									<Border BorderBrush="#33000000" BorderThickness="0 2 0 0" Margin="100 20 100 0"/>
+								</StackPanel>
+								<StackPanel Grid.Row="2" Orientation="Horizontal" Margin="5">
+									<TextBlock Text="Keep the application open when closing the window" VerticalAlignment="Center"/>
+									<ToggleSwitch VerticalAlignment="Center" Margin="10" x:Name="sillySwitch" IsChecked="{Binding IsToggleSwitchChecked, Mode=TwoWay}"/>
+								</StackPanel>
+							</Grid>
+						</TabItem>
+					</TabControl>
+					<!--Set a status bar and a textblock to diplay status-->
+					<StackPanel Grid.Row="1" VerticalAlignment="Bottom" HorizontalAlignment="Right" Orientation="Vertical" Margin="0 0 50 20" Width="150">
+						<TextBlock x:Name="StatusTextBlock" TextWrapping="Wrap" TextAlignment="Center" FontSize="11" Text="{Binding SearchViewModel.DownloadText}"/>
+						<ProgressBar x:Name="StatusProgressBar" IsIndeterminate="{Binding SearchViewModel.StatusBar}" Value="0"/>
+					</StackPanel>
+				</Grid>
+			</Panel>
+		</ScrollViewer>
+	</Grid>
+</Window>

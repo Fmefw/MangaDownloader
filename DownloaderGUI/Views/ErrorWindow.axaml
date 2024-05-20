@@ -1,0 +1,40 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:i="https://github.com/projektanker/icons.avalonia"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+		Icon="/Assets/avalonia-logo.ico"
+        x:Class="DownloaderGUI.ErrorWindow"
+        Title="Error"
+		Width="600"
+		Height="150"
+		CanResize="False"
+		TransparencyLevelHint="AcrylicBlur"
+		Background="Transparent"
+		ExtendClientAreaToDecorationsHint="True">
+
+	<Panel>
+		<ExperimentalAcrylicBorder IsHitTestVisible="False" x:Name="acrylicBorder">
+			<ExperimentalAcrylicBorder.Material>
+				<ExperimentalAcrylicMaterial
+					BackgroundSource="Digger"
+					TintColor="#FF0044FF"
+					TintOpacity="0.5"
+					MaterialOpacity="0.2"/>
+			</ExperimentalAcrylicBorder.Material>
+		</ExperimentalAcrylicBorder>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="auto"/>
+				<RowDefinition Height="*"/>
+			</Grid.RowDefinitions>
+			<i:Icon Value="fa-bomb" FontSize="50" Margin="30 30 0 0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="0"/>
+			<StackPanel Orientation="Vertical" Grid.Row="0" HorizontalAlignment="Center">
+				<TextBlock Text="An Error Occured:" Margin="0 20 0 10"/>
+				<TextBlock Width="400" TextTrimming="CharacterEllipsis" TextWrapping="Wrap" Name="ErrorMessageTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+			</StackPanel>
+			<Button Content="Ok" Grid.Row="1" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Width="100" Click="Button_Click"/>
+		</Grid>
+	</Panel>
+</Window>
