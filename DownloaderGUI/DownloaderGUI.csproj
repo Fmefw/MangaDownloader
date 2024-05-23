@@ -1,51 +1,43 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
-    <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
-    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
-    <ApplicationIcon>Assets\avalonia-logo.ico</ApplicationIcon>
-    <Platforms>AnyCPU;x86;x64</Platforms>
-    <Company>Il Palle Computers</Company>
-    <PlatformTarget>x86</PlatformTarget>
-  </PropertyGroup>
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+        <ApplicationManifest>app.manifest</ApplicationManifest>
+        <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
+        <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+        <PackageId>Dynasty Scans Manga Downloader</PackageId>
+        <Version>1.0.1</Version>
+        <Authors>Il Palle Computers</Authors>
+        <Company>Il Palle Computers</Company>
+        <Product>Dynasty Scans Manga Downloader</Product>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <AvaloniaResource Include="Assets\**" />
-  </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Models\"/>
+        <AvaloniaResource Include="Assets\**"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <AvaloniaXaml Remove="Models\**" />
-    <Compile Remove="Models\**" />
-    <EmbeddedResource Remove="Models\**" />
-    <None Remove="Models\**" />
-  </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Avalonia" Version="11.0.10"/>
+        <PackageReference Include="Avalonia.Desktop" Version="11.0.10"/>
+        <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.10"/>
+        <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.10"/>
+        <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+        <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.10"/>
+        <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.10"/>
+        <PackageReference Include="Mono.Posix.NETStandard" Version="5.20.1-preview" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+        <PackageReference Include="PDFsharp" Version="6.0.0"/>
+        <PackageReference Include="Prism.Core" Version="8.1.97"/>
+        <PackageReference Include="Projektanker.Icons.Avalonia.FontAwesome" Version="9.3.0"/>
+        <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4"/>
+    </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="Assets\avalonia-logo.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Avalonia" Version="11.0.10" />
-    <PackageReference Include="Avalonia.Desktop" Version="11.0.10" />
-    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.10" />
-    <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.10" />
-    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
-    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.0.10" />
-    <PackageReference Include="Avalonia.ReactiveUI" Version="11.0.10" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
-    <PackageReference Include="PDFsharp" Version="6.0.0" />
-    <PackageReference Include="Prism.Core" Version="8.1.97" />
-    <PackageReference Include="Projektanker.Icons.Avalonia.FontAwesome" Version="9.3.0" />
-    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Views\ErrorDialog.axaml.cs">
-      <DependentUpon>ErrorDialog.axaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
+    <ItemGroup>
+        <Compile Update="Views\ErrorDialog.axaml.cs">
+            <DependentUpon>ErrorDialog.axaml</DependentUpon>
+        </Compile>
+    </ItemGroup>
 </Project>

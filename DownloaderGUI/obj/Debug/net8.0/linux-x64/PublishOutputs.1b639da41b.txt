@@ -1,0 +1,5 @@
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/publish/DownloaderGUI.pdb
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/publish/libHarfBuzzSharp.so
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/publish/libMonoPosixHelper.so
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/publish/libSkiaSharp.so
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/publish/DownloaderGUI

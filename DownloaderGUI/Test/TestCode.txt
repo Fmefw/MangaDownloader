@@ -1,0 +1,193 @@
+using System;
+using System.IO;
+using Avalonia.Controls;
+using Avalonia.Interactivity;
+using Avalonia.Media;
+using ReactiveUI;
+using SkiaSharp;
+using System.Collections.ObjectModel;
+using System.Net.Http;
+using System.Reactive;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Net;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using System.Text;
+using Avalonia.Controls.Chrome;
+using Avalonia.Threading;
+using System.Globalization;
+using DynamicData;
+
+//Altri using presi dalla versione da Terminale
+using System.IO.Compression;
+using System.Diagnostics;
+using System.Text.Json;
+using System.Collections.Immutable;
+using PdfSharp.Pdf;
+using PdfSharp.Drawing;
+
+
+public class Downloader
+{
+    static async Task DownladAIO(string nomeManga, int[] capitoli, string linkparziale) //la folderPath posso recuperarla con il metodo DefaultPathManager
+                                //(string nomeManga, int capInizio, int capFine, int numeroCapitoli, string linkparziale)
+    {
+        //Qui scarico tutto
+
+        string fileUrlInizio = $"https://dynasty-scans.com/chapters/{linkparziale}_ch";
+        string fileUrlFine = "/download";
+        //string[] fileUrl = new string[numeroCapitoli];
+
+        List<string> CreatoreUrl = new List<string>();
+
+        Array.Sort(capitoli);
+
+        foreach (var capitolo in capitoli) //sostituito il ciclo for con un foreach, spero funzioni
+        {
+            if (capitolo < 10)
+            {
+                string numero = "0" + capitolo;
+                string urlFinito = fileUrlInizio + numero + fileUrlFine;
+                CreatoreUrl.Add(urlFinito);
+            }
+            else
+            {
+                string urlFinito = fileUrlInizio + capitolo + fileUrlFine;
+                CreatoreUrl.Add(urlFinito);
+            }
+        }
+
+        string[] fileUrl = CreatoreUrl.ToArray();
+
+        using (WebClient client = new WebClient()) //Creating a new WebClient
+        {
+            foreach (var i in capitoli) //anche qui ho cabiamo in un foreach
+            {
+                try
+                {
+                    //var path = $@".\Download\{nomeManga} Manga\Zip\Capitolo{i}.zip"; //First I check if the file already exists
+
+                    var pathUtente = ReadDefaultPath(); //vorrei usare il metodo per avere la prima parte del path
+                    var path = pathUtente + $"\\{nomeManga} Manga\\Zip\\Capitolo{i}.zip";
+
+                    if (!File.Exists(path)) //If it doesn't I'll download it
+                    {
+                        string fileName = $"Capitolo{i}.zip"; //Creationg the file name
+                        string cartellaManga = $@"{nomeManga} Manga\Zip\"; //Creating the folder path
+
+                        //string filePath = $@".\Download\" + cartellaManga + fileName; //Creating the file path
+
+                        string filePath = Path.Combine(pathUtente, cartellaManga, fileName); //Dovrebbe essere piu efficente e piu pulito
+
+                        await client.DownloadFileTaskAsync(new Uri(fileUrl[i]), filePath); //Download the file
+                    }
+
+                }
+                catch (Exception ex) //If any error happen
+                {
+                    Console.WriteLine("Error downloading the file: " + ex.Message); //Error message
+                    string fileName = $"Capitolo{i}.zip"; //File name
+                    string cartellaManga = $@"{nomeManga} Manga\Zip\"; //Folder path
+
+                    string filePath = Path.Combine(pathUtente, cartellaManga, fileName); //Dovrebbe essere piu efficente e piu pulito
+
+                    if (File.Exists(filePath)) //If the download fails and the file exists
+                    {
+                        File.Delete(filePath); //Delete the file since it's corrupted
+                    }
+                }
+            }
+        }
+
+
+        //Depressione degli Zip
+
+        var pathUtente = ReadDefaultPath(); 
+        string cartellaManga = $@"{nomeManga} Manga\Zip\";
+        string path2 = Path.Combine(pathUtente, cartellaManga); //Dovrebbe funzionare spero
+        
+        string[] zipFiles = Directory.GetFiles(path2, "*.zip");  //get all the zips in path2
+        List<string> extractionPaths = new List<string>(); //declare extractionPaths list
+
+        foreach (string zipFile in zipFiles)
+        {
+            string depression = Path.Combine(path2, Path.GetFileNameWithoutExtension(zipFile)); //depression (the output path) is a folder having the same zip name
+            Directory.CreateDirectory(depression); //create depression
+
+            await Task.Run(() => ZipFile.ExtractToDirectory(zipFile, depression)); //extract files to depression
+
+            File.Delete(zipFile); //delete files
+
+            extractionPaths.Add(depression); //add depression to the extraction paths
+        }
+
+
+        //Faccio il PDF
+
+        //List<string> extractionPaths = await ZipDepression(path2); //Call ZipDepression Method to have sequentially the extraction paths; Dovrebbe essere inutile dato che ho gia depresso i file
+        
+        foreach (string extractedPath in extractionPaths) //for every extraction path
+        {
+            string outputPath = ""; //declare output path
+
+            if (Directory.Exists(extractedPath))
+            {
+                string[] PallePNG = Directory.GetFiles(extractedPath, "*.png", SearchOption.AllDirectories); // Check if extractedPath contains PNG files directly (PallePNG is all the PNGs found)
+                if (PallePNG.Length > 0)
+                {
+                    try
+                    {
+                        string folderName = new DirectoryInfo(extractedPath).Name; //Extract the name of the last folder in extractedPath
+                        outputPath = Path.Combine(extractedPath, $"{folderName}.pdf"); //Construct the PDF path 
+                        Array.Sort(PallePNG); //Sort the images alphabetically 
+
+                        using (PdfDocument document = new PdfDocument()) //PdfSharp stuff
+                        {
+                            foreach (string pngFile in PallePNG)
+                            {
+                                try
+                                {
+                                    using (FileStream fs = new FileStream(pngFile, FileMode.Open))
+                                    {
+                                        PdfPage page = document.AddPage();
+                                        XGraphics gfx = XGraphics.FromPdfPage(page);
+                                        XImage image = XImage.FromStream(fs);
+
+                                        double width = page.Width;  //Calculate the width and height of the image
+                                        double height = page.Height;
+
+                                        double scaleX = width / image.PixelWidth; //Calculate the scaling factors to fit the image within the page
+                                        double scaleY = height / image.PixelHeight;
+                                        double scale = Math.Min(scaleX, scaleY);
+
+                                        gfx.DrawImage(image, 0, 0, width, height); //Draw the image onto the PDF page
+                                    }
+                                }
+                                catch (Exception ex)
+                                {
+                                    //Console.WriteLine($"Error adding image '{pngFile}': {ex.Message}");
+                                }
+                            }
+                            document.Save(outputPath);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        //Console.WriteLine($"Error creating PDF file '{outputPath}': {ex.Message}");
+                    }
+                }
+                else
+                {
+                    //Console.WriteLine("No PNG files found in the specified directory or its subfolders.");
+                }
+            }
+            else
+            {
+                //Console.WriteLine("Specified directory does not exist.");
+            }
+        }
+    }
+}

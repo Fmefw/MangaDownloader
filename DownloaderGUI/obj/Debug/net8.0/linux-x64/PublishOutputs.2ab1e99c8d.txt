@@ -1,0 +1,4 @@
+C:\Users\lever\Documents\A\DownloaderGUI.pdb
+C:\Users\lever\Documents\A\libHarfBuzzSharp.so
+C:\Users\lever\Documents\A\libSkiaSharp.so
+C:\Users\lever\Documents\A\DownloaderGUI

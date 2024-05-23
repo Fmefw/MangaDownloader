@@ -7,21 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DownloaderGUI", "Downloader
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6F73D3E-CC37-4532-84DC-DBAEFABA95BD}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Dynasty Scans Manga Downloader", "Dynasty Scans Manga Downloader\Dynasty Scans Manga Downloader.vdproj", "{B0617C4D-3973-4B21-A8B5-7F298A129667}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Debug|Any CPU.Build.0 = Debug|x86
-		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Release|Any CPU.ActiveCfg = Debug|x86
-		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Release|Any CPU.Build.0 = Debug|x86
-		{B0617C4D-3973-4B21-A8B5-7F298A129667}.Debug|Any CPU.ActiveCfg = Debug
-		{B0617C4D-3973-4B21-A8B5-7F298A129667}.Release|Any CPU.ActiveCfg = Release
-		{B0617C4D-3973-4B21-A8B5-7F298A129667}.Release|Any CPU.Build.0 = Release
+		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D661C5-1DD1-4AEB-A9D0-676186EE26B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -9,11 +9,9 @@ public static class ToggleSwitchStateManager
         if (File.Exists(FilePath))
         {
             var content = File.ReadAllText(FilePath);
-            if (bool.TryParse(content, out bool result))
-            {
-                return result;
-            }
+            if (bool.TryParse(content, out var result)) return result;
         }
+
         return true; // Default state
     }
 

@@ -1,11 +1,13 @@
-using Avalonia.Controls;
 using System.IO;
+using Avalonia.Controls;
+using Avalonia.Interactivity;
+using Avalonia.Media;
 
 namespace DownloaderGUI;
 
 public partial class ErrorWindow : Window
 {
-    private string colorFilePath = "Theme.config";
+    private readonly string colorFilePath = "Theme.config";
 
     public ErrorWindow(string errorMessage)
     {
@@ -14,19 +16,20 @@ public partial class ErrorWindow : Window
         acrylicBorder = this.FindControl<ExperimentalAcrylicBorder>("acrylicBorder");
         InitializeColorFromFile();
     }
+
     public ErrorWindow()
     {
         InitializeComponent();
     }
 
-    private void Button_Click(object? sender, Avalonia.Interactivity.RoutedEventArgs e)
+    private void Button_Click(object? sender, RoutedEventArgs e)
     {
         Close();
     }
 
     private void InitializeColorFromFile()
     {
-        string defaultColor = "#FF0044FF";
+        var defaultColor = "#FF0044FF";
 
         if (!File.Exists(colorFilePath))
         {
@@ -34,11 +37,8 @@ public partial class ErrorWindow : Window
         }
         else
         {
-            string savedColor = File.ReadAllText(colorFilePath);
-            if (!string.IsNullOrWhiteSpace(savedColor))
-            {
-                acrylicBorder.Material.TintColor = Avalonia.Media.Color.Parse(savedColor);
-            }
+            var savedColor = File.ReadAllText(colorFilePath);
+            if (!string.IsNullOrWhiteSpace(savedColor)) acrylicBorder.Material.TintColor = Color.Parse(savedColor);
         }
     }
 

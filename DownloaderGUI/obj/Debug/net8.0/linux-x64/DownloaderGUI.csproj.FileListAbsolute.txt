@@ -1,0 +1,366 @@
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.deps.json
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.runtimeconfig.json
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Base.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.DesignerSupport.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Dialogs.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.Xaml.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Metal.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.MicroCom.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.OpenGL.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.ColorPicker.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.DataGrid.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Desktop.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Diagnostics.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Fonts.Inter.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.FreeDesktop.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Native.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.ReactiveUI.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Remote.Protocol.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Skia.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Fluent.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Simple.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Win32.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.X11.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DynamicData.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/HarfBuzzSharp.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/MicroCom.Runtime.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Primitives.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Newtonsoft.Json.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Charting.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Quality.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Snippets.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.System.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.WPFonts.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Prism.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.FontAwesome.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ReactiveUI.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/SixLabors.ImageSharp.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/SkiaSharp.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Splat.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.IO.Pipelines.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.Reactive.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Tmds.DBus.Protocol.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/PdfSharp.Charting.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/PdfSharp.resources.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/libHarfBuzzSharp.so
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/libSkiaSharp.so
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.AssemblyReference.cache
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/Resources.Inputs.cache
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/resources
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfoInputs.cache
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfo.cs
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.CoreCompileInputs.cache
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.sourcelink.json
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/references
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.pdb
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.ref.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/refint/DownloaderGUI.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.dll
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Download.3CB4C0A9.Up2Date
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.genruntimeconfig.cache
+C:/Users/lever/source/repos/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/ref/DownloaderGUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.deps.json
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.runtimeconfig.json
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Base.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.DesignerSupport.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Dialogs.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.Xaml.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Metal.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.MicroCom.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.OpenGL.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.ColorPicker.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.DataGrid.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Desktop.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Diagnostics.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Fonts.Inter.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.FreeDesktop.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Native.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.ReactiveUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Remote.Protocol.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Skia.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Fluent.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Simple.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Win32.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.X11.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/DynamicData.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/HarfBuzzSharp.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/MicroCom.Runtime.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.Scripting.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Primitives.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Newtonsoft.Json.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Charting.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Quality.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Snippets.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.System.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.WPFonts.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Prism.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.FontAwesome.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ReactiveUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/SixLabors.ImageSharp.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/SkiaSharp.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Splat.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.IO.Pipelines.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.Reactive.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/Tmds.DBus.Protocol.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/cs/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/es/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/fr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/it/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ja/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ko/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pl/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/pt-BR/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/ru/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/PdfSharp.Charting.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/de/PdfSharp.resources.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/libHarfBuzzSharp.so
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/bin/Debug/net8.0/linux-x64/libSkiaSharp.so
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.AssemblyReference.cache
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/Resources.Inputs.cache
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/resources
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfoInputs.cache
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfo.cs
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.CoreCompileInputs.cache
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.sourcelink.json
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/references
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.pdb
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.ref.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/refint/DownloaderGUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.dll
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/Download.3CB4C0A9.Up2Date
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.genruntimeconfig.cache
+C:/Users/lever/Documents/Code/DownloaderGUI Linux/DownloaderGUI/obj/Debug/net8.0/linux-x64/ref/DownloaderGUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.AssemblyReference.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/Resources.Inputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/resources
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.GeneratedMSBuildEditorConfig.editorconfig
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfoInputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.AssemblyInfo.cs
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.CoreCompileInputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.sourcelink.json
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Base.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.DesignerSupport.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Dialogs.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.Xaml.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Markup.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Metal.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.MicroCom.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.OpenGL.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.ColorPicker.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Controls.DataGrid.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Desktop.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Diagnostics.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Fonts.Inter.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.FreeDesktop.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Native.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.ReactiveUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Remote.Protocol.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Skia.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Fluent.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Themes.Simple.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.Win32.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Avalonia.X11.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DynamicData.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/HarfBuzzSharp.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/MicroCom.Runtime.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.CodeAnalysis.Scripting.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Configuration.Binder.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Abstractions.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Configuration.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Logging.Console.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Microsoft.Extensions.Primitives.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Newtonsoft.Json.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Charting.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Quality.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.Snippets.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.System.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.WPFonts.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/PdfSharp.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Prism.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Projektanker.Icons.Avalonia.FontAwesome.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/ReactiveUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/SixLabors.ImageSharp.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/SkiaSharp.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Splat.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.IO.Pipelines.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.Reactive.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Tmds.DBus.Protocol.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/libHarfBuzzSharp.so
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/libSkiaSharp.so
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/references
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.pdb
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/Avalonia/original.ref.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.genruntimeconfig.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/System.Text.Json.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.csproj.CopyComplete
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.deps.json
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.runtimeconfig.json
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/refint/DownloaderGUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/DownloaderGUI.pdb
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Debug/net8.0/linux-x64/ref/DownloaderGUI.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/Mono.Posix.NETStandard.dll
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/bin/Debug/net8.0/linux-x64/libMonoPosixHelper.so

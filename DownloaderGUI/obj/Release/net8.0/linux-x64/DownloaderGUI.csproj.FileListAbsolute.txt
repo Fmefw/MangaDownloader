@@ -1,0 +1,8 @@
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.csproj.AssemblyReference.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/Avalonia/Resources.Inputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/Avalonia/resources
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.GeneratedMSBuildEditorConfig.editorconfig
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.AssemblyInfoInputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.AssemblyInfo.cs
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.csproj.CoreCompileInputs.cache
+/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/obj/Release/net8.0/linux-x64/DownloaderGUI.sourcelink.json

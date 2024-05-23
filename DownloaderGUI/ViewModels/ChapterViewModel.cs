@@ -3,9 +3,10 @@
 public class ChapterViewModel : INotifyPropertyChanged
 {
     private bool _isChecked;
+
     public bool IsChecked
     {
-        get { return _isChecked; }
+        get => _isChecked;
         set
         {
             if (_isChecked != value)

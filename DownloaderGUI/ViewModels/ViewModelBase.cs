@@ -1,8 +1,7 @@
 ﻿using ReactiveUI;
 
-namespace DownloaderGUI.ViewModels
+namespace DownloaderGUI.ViewModels;
+
+public class ViewModelBase : ReactiveObject
 {
-    public class ViewModelBase : ReactiveObject
-    {
-    }
 }
