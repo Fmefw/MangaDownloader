@@ -96,7 +96,7 @@ public class MainWindowViewModel : ViewModelBase // Defining the view model clas
                     var jsonString = await response.Content.ReadAsStringAsync(); //Reading the downloaded file
                     var totalPages = await GetTotalPages(jsonString); //Getting the numbers of pages
 
-                    var directoryPath = @".\JSON"; //Path where JSON files are saved 
+                    var directoryPath = @"./JSON"; //Path where JSON files are saved 
                     Directory.CreateDirectory(directoryPath); //Create the directory
 
                     for (var currentPage = 1;

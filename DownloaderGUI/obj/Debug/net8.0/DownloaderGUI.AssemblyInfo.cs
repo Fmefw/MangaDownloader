@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Il Palle Computers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+2837b315e660b0cb6743ec4e9c06c2fe15ca7346")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+48752fa8f18ad1c94d885b8b814b6f6a5cc6e488")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dynasty Scans Manga Downloader")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DownloaderGUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]

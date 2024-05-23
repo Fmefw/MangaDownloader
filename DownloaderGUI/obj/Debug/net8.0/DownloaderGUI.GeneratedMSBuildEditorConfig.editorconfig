@@ -4,10 +4,6 @@ build_property.AvaloniaNameGeneratorBehavior = InitializeComponent
 build_property.AvaloniaNameGeneratorDefaultFieldModifier = internal
 build_property.AvaloniaNameGeneratorFilterByPath = *
 build_property.AvaloniaNameGeneratorFilterByNamespace = *
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = 
-build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -17,18 +13,18 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DownloaderGUI
-build_property.ProjectDir = /home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/
+build_property.ProjectDir = /home/Camilla/Documents/Codes/MangaDownloader/DownloaderGUI/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 
-[/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/App.axaml]
+[/home/Camilla/Documents/Codes/MangaDownloader/DownloaderGUI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/Views/ErrorWindow.axaml]
+[/home/Camilla/Documents/Codes/MangaDownloader/DownloaderGUI/Views/ErrorWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/Views/MainWindow.axaml]
+[/home/Camilla/Documents/Codes/MangaDownloader/DownloaderGUI/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/Camilla/Downloads/DownloaderGUI/DownloaderGUI/Views/MessaggiamentoWindow.axaml]
+[/home/Camilla/Documents/Codes/MangaDownloader/DownloaderGUI/Views/MessaggiamentoWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
